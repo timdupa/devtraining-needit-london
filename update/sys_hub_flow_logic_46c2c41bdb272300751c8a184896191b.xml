@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c36c3fc3db272300751c8a1848961994</block>
+        <comment/>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="NeedIt Fullfillment">01343b8fdbe32300751c8a1848961906</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>7ed25c28-f3bf-4ecd-8fdf-c7700ca09a9c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 20:48:19</sys_created_on>
+        <sys_id>46c2c41bdb272300751c8a184896191b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_46c2c41bdb272300751c8a184896191b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-15 20:48:20</sys_updated_on>
+        <ui_id>eae87d76-e8fa-46dd-8868-78c25a6f0931</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=46c2c41bdb272300751c8a184896191b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>46c2c41bdb272300751c8a184896191b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 20:48:19</sys_created_on>
+        <sys_id>9ec2c41bdb272300751c8a184896191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-15 20:48:19</sys_updated_on>
+        <value>Legal request</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>46c2c41bdb272300751c8a184896191b</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 20:48:19</sys_created_on>
+        <sys_id>dac2c41bdb272300751c8a184896191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-15 20:48:19</sys_updated_on>
+        <value>{{Created_1.current.u_request_type}}=legal</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>
