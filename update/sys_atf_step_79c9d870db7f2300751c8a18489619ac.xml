@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Set the values on the form as follows:
+Short description =
+and Caller = {{Step 1: Impersonate.User}}</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-20 14:19:57</sys_created_on>
+        <sys_id>79c9d870db7f2300751c8a18489619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_79c9d870db7f2300751c8a18489619ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-20 14:19:57</sys_updated_on>
+        <table>incident</table>
+        <test display_value="Validate Email Incident">1591587cdb3f2300751c8a1848961916</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=79c9d870db7f2300751c8a18489619ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>79c9d870db7f2300751c8a18489619ac</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-20 14:19:57</sys_created_on>
+        <sys_id>3dd9d8b0db7f2300751c8a18489619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-20 14:19:57</sys_updated_on>
+        <value>short_description=^caller_id={{step['009958b0db7f2300751c8a184896190f'].user}}^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>79c9d870db7f2300751c8a18489619ac</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-20 14:19:57</sys_created_on>
+        <sys_id>79d9d8b0db7f2300751c8a18489619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-20 14:19:57</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=79c9d870db7f2300751c8a18489619ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>79c9d870db7f2300751c8a18489619ac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-20 14:19:57</sys_created_on>
+        <sys_id>f5d9d8b0db7f2300751c8a18489619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-20 14:19:57</sys_updated_on>
+        <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
+        <value>short_description=^caller_id={{step['009958b0db7f2300751c8a184896190f'].user}}^EQ</value>
+    </sys_element_mapping>
+</record_update>
